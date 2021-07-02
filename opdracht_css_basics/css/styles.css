@@ -1,0 +1,36 @@
+body { 
+    color: #7dab89;
+    background-color: #eff1f3;
+    font-family: 'Lato';
+}
+h1, h2 {
+    color: #538260;
+}
+
+.cursive {
+    font-style: italic;
+}
+.grey-border {
+    border: 3px solid #4b5c50;
+}
+.font-bitbigger {
+    font-size: 20px;
+}
+.font-big {
+    font-size: 24px;
+}
+div.rounded {
+	background-color: rgb(216, 213, 213);
+	color: #4b5c50;
+	font-weight: bold;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px; }
+
+div.whiteround {
+    background-color: #ffffff;
+    color: #7dab89;
+    font-weight: bold;
+    padding: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; }
