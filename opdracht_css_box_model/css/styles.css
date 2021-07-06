@@ -1,0 +1,98 @@
+body { 
+    color: #7dab89;
+    background-color: #fff;
+    font-family: 'Lato';
+}
+header {
+    border: 5px dotted #7dab89;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 30px 10px 30px;
+/* shorthand hieronder */
+    padding: 10px 30px;
+    text-align: center;
+}
+
+nav {
+    border-style: hidden;
+    margin: 20px 10px;
+    padding: 10px 10px 10px 10px;
+/* shorthand hieronder */
+    padding: 10px;
+}
+
+main {
+    border: 2px dashed #7dab89;
+    margin: 20px 10px;
+    padding: 10px 30px 10px 30px;
+/* shorthand hieronder */
+    padding: 10px 30px;
+}
+
+footer {
+    border-style: hidden;
+    margin: 10px 10px;
+    padding: 10px 30px 50px 10px;
+/* shorthand niet mogelijk */
+}
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    color: #538260;
+}
+
+p {
+    color: #000;
+}
+
+.hoofdmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li.menu {
+    float: right;
+}
+
+li.menu a {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+      }
+
+.cursive {
+    font-style: italic;
+}
+
+.font-bitbigger {
+    font-size: 20px;
+}
+.font-big {
+    font-size: 24px;
+}
+.rounded {
+	background-color: rgb(216, 213, 213);
+	color: #4b5c50;
+	font-weight: bold;
+	padding: 10px;
+    margin: 20px 0px;
+	border-radius: 10px;
+	}
+
+.whiteround {
+    background-color: #ffffff;
+    color: #7dab89;
+    font-weight: bold;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+ }
