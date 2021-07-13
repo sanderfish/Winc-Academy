@@ -1,0 +1,35 @@
+body { 
+    color: #7dab89;
+    background-color: #fff;
+    font-family: 'Lato';
+    line-height: 30px;
+    margin: 30px;
+}
+
+form {
+    margin: 30px;
+}
+
+button {
+    background-color: #7dab89;
+    color: #fff;
+    font-family: 'Lato';
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    border: solid 1px black;
+}
+
+button:hover
+{
+    background-color: #fff;  
+    color: #7dab89;
+}
+
+label {
+    color: #7dab89;
+}
+
+input {
+    color: #000;
+}
