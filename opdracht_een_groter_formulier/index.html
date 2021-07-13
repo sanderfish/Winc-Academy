@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext">
+    <title>Jouw recept op de site</title>
+</head>
+
+<body>
+    <header>
+        <h1>Plaats je recept op de website</h1>
+    </header>
+    <main>
+        <h2>Stuur nu jouw beste recept in!</h2>
+        <form name="recept" method="POST" data-netlify="true">
+            <p>
+                <label>Je naam: <input type="text" name="name"></label>
+            </p>
+            <p>
+                <label>Je e-mailadres: <input type="email" name="email"></label>
+            </p>
+            <p>
+                <label>Telefoonnummer: <input type="tel" name="tel"></label>
+            </p>
+            <p>
+                <label>Leeftijd: <input type="text" name="leeftijd"></label>
+            </p>
+            <p>
+                <label>Geboortedatum: <input type="date" name="geboortedatum"></label>
+            </p>
+            <p>
+                <label>Gender:
+                    man: <input type="checkbox" name="geslacht" value="man">
+                    vrouw: <input type="checkbox" name="geslacht" value="vrouw">
+                    anders: <input type="checkbox" name="geslacht" value="anders"></label>
+            </p>
+            <p>
+                <label>Favo keuken:
+                    Frans: <input type="checkbox" name="keuken" value="fr">
+                    Italiaans: <input type="checkbox" name="keuken" value="it">
+                    Spaans: <input type="checkbox" name="keuken" value="es">
+                    Arabisch: <input type="checkbox" name="keuken" value="ara"></label>
+            </p>
+            <p>
+                <label>Kies je favo kleur voor je schort:
+                    <input type="color" name="kleur-schort" value="#e66465"></label>
+            </p>
+            <p>
+                <label>Vertel iets over jezelf:<br>
+                    <textarea name="biografie"></textarea></label>
+            </p>
+            <p>
+                <label>Upload hier je nieuwste recept:<br>
+                    <input type="file" name="recept">
+
+                </label>
+            </p>
+            <p>
+                <label>Jouw website met recepten:<br>
+                    <input type="url" name="website"></label>
+            </p>
+            <p>
+                <button type="reset">Formulier leegmaken</button>
+            </p>
+            <p>
+                <button type="submit">Verstuur je recept</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+    </footer>
+
+</body>
+
+</html>
