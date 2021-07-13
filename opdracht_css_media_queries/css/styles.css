@@ -1,0 +1,159 @@
+body { 
+    color: #7dab89;
+    background-color: #fff;
+    font-family: 'Lato';
+}
+
+header {
+    border: 5px dotted #7dab89;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 30px 10px 30px;
+/* shorthand hieronder */
+    padding: 10px 30px;
+    text-align: center;
+}
+
+nav {
+    border-style: hidden;
+    margin: 20px 10px;
+    padding: 10px 10px 10px 10px;
+/* shorthand hieronder */
+    padding: 10px;
+}
+
+main {
+    border: 2px dashed #7dab89;
+    margin: 20px 10px;
+    padding: 10px 30px 10px 30px;
+/* shorthand hieronder */
+    padding: 10px 30px;
+}
+
+footer {
+    border-style: hidden;
+    margin: 10px 10px;
+    padding: 10px 30px 50px 10px;
+/* shorthand niet mogelijk */
+}
+
+h1 {
+    color: #000;
+    font-size: 20px;
+}
+
+h2 {
+    color: #538260;
+    font-size: 20px;
+}
+
+p {
+    color: #000;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #538260;}
+
+.hoofdmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+li.menu a {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+      }
+
+li.menu a:hover {
+        color: #538260;}
+
+.cursive {
+    font-style: italic;
+}
+
+.font-bitbigger {
+    font-size: 20px;
+}
+.font-big {
+    font-size: 24px;
+}
+.rounded {
+	background-color: rgb(216, 213, 213);
+	color: #4b5c50;
+	font-weight: bold;
+	padding: 10px;
+    margin: 20px 0px;
+	border-radius: 10px;
+	}
+
+.whiteround {
+    background-color: #ffffff;
+    color: #7dab89;
+    font-weight: bold;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ @media (min-width: 1024px) {
+
+    body { 
+        background-color: #e9faed;
+        color: rgb(97, 96, 96); 
+        line-height: 30px;
+    }
+
+    nav {
+        margin-bottom: 80px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .hoofdmenu {
+        float: right;
+    }
+
+   li.menu {
+        float: left;
+    }
+
+    li.menu a {
+            font-size: 20px;
+    }
+
+    .font-bitbigger {
+        font-size: 18px;
+        color: rgb(97, 96, 96);
+    }
+
+    .font-big {
+        color: rgb(97, 96, 96);
+    }
+ }
+
+
+ /* Smartphones (portrait)
+minimale breedte : 320px;
+
+// Tablets (portrait)
+minimale breedte : 768px
+
+// Desktop 
+minimale breedte : 1024px */
