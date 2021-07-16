@@ -370,10 +370,20 @@ textarea {
 .slag {
     overflow: hidden;
 }
+
+.image-slag {
+    width: 50%; 
+    float: left;
+    padding: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
 .aan-de-slag {
     width: 50%; 
     display: inline-block;
     padding: 0px 0px 10px 10px;
+    margin-top: 30px;
     box-sizing: border-box;
 }
 
@@ -466,6 +476,12 @@ footer {
     display: inline-block;
     padding-left: 20px;
     box-sizing: border-box;
+}
+
+.footer-width {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 }
