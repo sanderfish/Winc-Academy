@@ -12,6 +12,12 @@ body {
   line-height: 35px;
 }
 
+@media (min-width: 1024px) {
+  body {
+    line-height: 30px;
+  }
+}
+
 header {
   margin: 0 auto;
   padding: 10px;
@@ -24,9 +30,21 @@ nav {
   padding: 0px 0px;
 }
 
+@media (min-width: 1024px) {
+  nav {
+    margin: 30px 30px;
+  }
+}
+
 main {
   margin: 10px 10px;
   padding: 10px 10px;
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding: 120px 0px 50px 0px;
+  }
 }
 
 section {
@@ -34,10 +52,23 @@ section {
   padding: 0px 0px;
 }
 
+@media (min-width: 1024px) {
+  section {
+    margin: 40px 0px 20px 0px;
+    padding: 0px 0px;
+  }
+}
+
 h1 {
   color: #000;
   font-size: 30px;
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    text-align: center;
+  }
 }
 
 h2 {
@@ -73,6 +104,15 @@ a:hover {
   width: 20%;
 }
 
+@media (min-width: 1024px) {
+  .logo-menu {
+    width: 10%;
+    float: left;
+    margin-top: none;
+    margin-bottom: 10px;
+  }
+}
+
 .images {
   display: block;
   margin-left: auto;
@@ -85,6 +125,14 @@ footer {
   background-color: #939393;
   color: #fff;
   font-family: "Lato", "Tahoma", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  footer {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
 }
 
 footer a {
@@ -103,6 +151,13 @@ footer a:hover {
   margin: 10px;
 }
 
+@media (min-width: 1024px) {
+  .footer-tekst {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
 .footer-bold {
   font-size: 14px;
   color: #fff;
@@ -112,12 +167,27 @@ footer a:hover {
   margin: 10px;
 }
 
+@media (min-width: 1024px) {
+  .footer-bold {
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+  }
+}
+
 .footer-line {
   background-color: #818181;
   color: #fff;
   border-style: hidden;
   margin: 0 px;
   padding: 0px 0px 0px 0px;
+}
+
+@media (min-width: 1024px) {
+  .footer-line {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
 }
 
 .footer-line-tekst {
@@ -147,6 +217,13 @@ footer a:hover {
   cursor: pointer;
 }
 
+@media (min-width: 1024px) {
+  .button {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
+
 .button:hover {
   color: #fff;
   background-color: rgb(234, 191, 144);
@@ -163,6 +240,12 @@ footer a:hover {
   overflow: hidden;
 }
 
+@media (min-width: 1024px) {
+  .hoofdmenu {
+    float: right;
+  }
+}
+
 li.menu a {
   display: block;
   color: #000;
@@ -170,6 +253,12 @@ li.menu a {
   font-size: 14px;
   padding: 10px 20px;
   text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  li.menu a {
+    font-size: 20px;
+  }
 }
 
 li.menu a:hover {
@@ -194,11 +283,23 @@ input[type="text"] {
   box-sizing: border-box;
 }
 
+@media (min-width: 1024px) {
+  input[type="text"] {
+    width: 80%;
+  }
+}
+
 input[type="email"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  input[type="email"] {
+    width: 80%;
+  }
 }
 
 textarea {
@@ -210,56 +311,20 @@ textarea {
 }
 
 @media (min-width: 1024px) {
-  body {
-    line-height: 30px;
+  textarea {
+    width: 80%;
+    height: 120px;
   }
+}
 
-  main {
-    padding: 120px 0px;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  section {
-    margin: 40px 0px 20px 0px;
-    padding: 0px 0px;
-  }
-
-  nav {
-    border-style: hidden;
-    margin: 30px 30px;
-    padding: 0px 0px;
-  }
-
+@media (min-width: 1024px) {
   .page {
     width: 80%;
     margin: auto;
   }
 
-  .hoofdmenu {
-    float: right;
-  }
-
   li.menu {
     float: left;
-  }
-
-  li.menu a {
-    font-size: 20px;
-  }
-
-  .logo-menu {
-    width: 10%;
-    float: left;
-    margin-top: none;
-    margin-bottom: 10px;
-  }
-
-  .button {
-    margin-top: 40px;
-    margin-bottom: 60px;
   }
 
   .container-links {
@@ -274,19 +339,6 @@ textarea {
     display: inline-block;
     padding-left: 20px;
     box-sizing: border-box;
-  }
-
-  input[type="text"] {
-    width: 80%;
-  }
-
-  input[type="email"] {
-    width: 80%;
-  }
-
-  textarea {
-    width: 80%;
-    height: 120px;
   }
 
   .button-contact {
@@ -315,25 +367,10 @@ textarea {
     overflow: hidden;
   }
 
-  footer {
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-  }
-
   .footer-width {
     width: 80%;
     margin: auto;
     padding-bottom: 50px;
-  }
-  .footer-tekst {
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .footer-bold {
-    margin: 0px 0px 20px 0px;
-    padding: 0px;
   }
 
   .footer1 {
