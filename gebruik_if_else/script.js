@@ -16,7 +16,7 @@ console.log("Welkom op LadiesNight!");
     console.log("Helaas, je bent geen vrouw.");
 }
 
-if (driverStatus) {
+if (driverStatus === 'bob') {
     console.log("Je bent de bob en mag dus rijden!");
 
 } else {
