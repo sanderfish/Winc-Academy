@@ -20,7 +20,7 @@ const squaredNumbers2 = function(number1, number2) {
     const sumNumbers = squareNumber1 + squareNumber2;
     const sum = sumNumbers * sumNumbers;
     return sum;
-}
+};
  
 console.log(squaredNumbers2(2,3));
 // expected output: 169
@@ -34,7 +34,7 @@ const squaredNumbers3 = (number1, number2) => {
     const sumNumbers = squareNumber1 + squareNumber2;
     const sum = sumNumbers * sumNumbers;
     return sum;
-}
+};
  
 console.log(squaredNumbers3(2, 3));
 
