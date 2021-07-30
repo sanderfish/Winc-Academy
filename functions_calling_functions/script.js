@@ -63,8 +63,7 @@ console.log(getTotalPrice(2, 9));
 const basePrice = function (price, VAT) {
     const base = price / ((VAT / 100) + 1)
     const amount = price - (price / ((VAT / 100) + 1));
-    console.log(base, amount);
-    return;
+    return [base, amount];
 };
 
 // test data voor basePrice
