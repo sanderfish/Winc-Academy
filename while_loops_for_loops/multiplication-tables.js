@@ -1,6 +1,8 @@
 /* // table of 9
+const multiplier = 9;
 for (let i = 1; i <= 10; i++) {
-    console.log(i + "x9 = " + (i * 9));
+    let result = i * multiplier;
+    console.log(i + " x " + multiplier + " = " + result);
 }
 
 // output
@@ -12,8 +14,9 @@ for (let i = 1; i <= 10; i++) {
 */
 
 // tables 1 until 10
-for (let i = 1; i <= 10; i++) {
-    for (j = 1; j <= 10; j++) {
-        console.log(i + " x " + j  + " = " + (i * j));
+for (let multiplier = 1; multiplier <= 1-; multiplier++) {
+    for (let i = 1; i <= 10; i++) {
+        let result = i * multiplier;
+        console.log(i + " x " + multiplier + " = " + result);
     }
 }
