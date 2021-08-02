@@ -1,6 +1,4 @@
-for (let score = 60; score < 100; score++) {
-    
-    function assignGrade(score) {
+function assignGrade(score) {
         if (score > 90) {
             return "A";
         } else if (score > 80) {
@@ -12,6 +10,8 @@ for (let score = 60; score < 100; score++) {
         } else {
             return "E";
         }
-    }
-    console.log("For scoring " + score + " points, you get an " )
+    
+ for (let score = 60; score < 100; score++) {
+    console.log("For scoring " + score + " points, you get an " + assignGrade(score));
+    
 }
